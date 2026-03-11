@@ -59,7 +59,7 @@ BEGIN
 
 	TRUNCATE TABLE bronze.erp_px_cat_g1v2;
 	BULK INSERT bronze.erp_px_cat_g1v2
-	FROM 'C:\Users\hants\Documents\Certifications & Qualifications\Data Engineering\SQL\Projects\datasets\erp\PX_CAT_G1V2.csv'
+	FROM --absolute path to the csv file--
 	WITH (
 	 FIRSTROW = 2,
 	 FIELDTERMINATOR = ',',

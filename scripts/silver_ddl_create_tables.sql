@@ -42,9 +42,9 @@ dwh_create_date DATETIME DEFAULT GETDATE()
 );
 
 CREATE TABLE silver.erp_cust_az12(
-CID NVARCHAR(50),
-BDATE DATETIME,
-GEN NVARCHAR(50),
+cid NVARCHAR(50),
+bdate DATE,
+gen NVARCHAR(50),
 dwh_create_date DATETIME DEFAULT GETDATE()
 );
 

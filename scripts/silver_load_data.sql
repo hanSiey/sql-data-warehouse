@@ -3,7 +3,6 @@ Insert data into silver tables from bronze data.
 Insert data after applying the following transformations:
 cleaning, transforming, and standardizing the data.
 */
-use DataWarehouse;
 
 CREATE OR ALTER PROCEDURE silver.load_silver AS
 BEGIN
